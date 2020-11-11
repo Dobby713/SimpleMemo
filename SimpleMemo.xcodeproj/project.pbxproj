@@ -17,6 +17,7 @@
 		0C124150255B082D008A51FE /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12414F255B082D008A51FE /* MemoListTableViewController.swift */; };
 		0C124152255B23D2008A51FE /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C124151255B23D2008A51FE /* ComposeViewController.swift */; };
 		0C124154255B2839008A51FE /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C124153255B2839008A51FE /* UIViewController+Alert.swift */; };
+		0C124156255C228E008A51FE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C124155255C228E008A51FE /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0C12414F255B082D008A51FE /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
 		0C124151255B23D2008A51FE /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		0C124153255B2839008A51FE /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		0C124155255C228E008A51FE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				0C12414F255B082D008A51FE /* MemoListTableViewController.swift */,
 				0C124151255B23D2008A51FE /* ComposeViewController.swift */,
 				0C124153255B2839008A51FE /* UIViewController+Alert.swift */,
+				0C124155255C228E008A51FE /* DetailViewController.swift */,
 			);
 			path = SimpleMemo;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				0C124140255AECD8008A51FE /* SimpleMemo.xcdatamodeld in Sources */,
 				0C12414E255AF4D1008A51FE /* Model.swift in Sources */,
 				0C124154255B2839008A51FE /* UIViewController+Alert.swift in Sources */,
+				0C124156255C228E008A51FE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
