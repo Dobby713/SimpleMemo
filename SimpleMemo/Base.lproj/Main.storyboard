@@ -73,7 +73,11 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Wh-iN-EvB">
                                 <rect key="frame" x="0.0" y="813" width="414" height="49"/>
                                 <items>
-                                    <barButtonItem title="Item" id="Q1E-Dt-gNT"/>
+                                    <barButtonItem systemItem="compose" id="Q1E-Dt-gNT">
+                                        <connections>
+                                            <segue destination="m0C-Nv-V3v" kind="presentation" id="it2-nQ-g3C"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9ce-sB-ULS">
@@ -133,6 +137,9 @@
                         <viewLayoutGuide key="safeArea" id="s6o-hM-uIo"/>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="VLj-Gr-gM1"/>
+                    <connections>
+                        <outlet property="memoTableView" destination="9ce-sB-ULS" id="YFL-GU-dgB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="16M-Ea-ofP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -219,4 +226,7 @@
             <point key="canvasLocation" x="802.89855072463774" y="-629.46428571428567"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="it2-nQ-g3C"/>
+    </inferredMetricsTieBreakers>
 </document>
